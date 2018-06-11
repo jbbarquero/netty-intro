@@ -1,4 +1,4 @@
-package com.malsolo.netty.client;
+package com.malsolo.netty.echo.client;
 
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.ChannelFuture;
