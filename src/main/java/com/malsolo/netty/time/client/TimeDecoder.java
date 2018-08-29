@@ -1,5 +1,6 @@
 package com.malsolo.netty.time.client;
 
+import com.malsolo.netty.time.UnixTime;
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.ByteToMessageDecoder;

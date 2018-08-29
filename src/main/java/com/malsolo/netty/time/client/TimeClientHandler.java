@@ -1,10 +1,8 @@
 package com.malsolo.netty.time.client;
 
-import io.netty.buffer.ByteBuf;
+import com.malsolo.netty.time.UnixTime;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
-
-import java.util.Date;
 
 public class TimeClientHandler extends ChannelInboundHandlerAdapter {
     @Override

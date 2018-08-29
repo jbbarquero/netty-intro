@@ -1,4 +1,4 @@
-package com.malsolo.netty.time.client;
+package com.malsolo.netty.time;
 
 import java.util.Date;
 
@@ -28,13 +28,9 @@ public class UnixTime {
 
     @Override
     public boolean equals(Object o) {
-        if (o == null) {
-            return false;
-        }
-        if (!(o instanceof UnixTime)) {
-            return false;
-        }
-        return o == this || this.value == ((UnixTime) o).value();
+        return o != null &&
+                o instanceof UnixTime &&
+                (o == this || this.value == ((UnixTime) o).value());
     }
 
     @Override
