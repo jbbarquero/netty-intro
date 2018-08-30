@@ -1,4 +1,4 @@
-package com.malsolo.sockets.client;
+package com.malsolo.sockets;
 
 import java.io.IOException;
 import java.io.InputStream;
