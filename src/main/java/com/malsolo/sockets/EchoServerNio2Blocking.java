@@ -54,9 +54,9 @@ public class EchoServerNio2Blocking {
                         System.err.printf("Blocking NIO.2 Echo Server Socket connection error: %s\n", ioex);
                     }
                 }
+            } else {
+                System.out.println("The server socket channel cannot be opened!");
             }
-
-
         } catch (IOException ioe) {
             System.err.printf("Blocking NIO.2 Echo Server Socket error: %s\n", ioe);
         }
